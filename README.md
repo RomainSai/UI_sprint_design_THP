@@ -1,24 +1,19 @@
-# README
+# UI SPRINT DESIGN From RENNES
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* [lien Heroku](https://ui-sprint-design-rs.herokuapp.com/) - https://ui-sprint-design-rs.herokuapp.com/
 
-Things you may want to cover:
+Pour démarrer l'Application
 
-* Ruby version
+clone le repository
 
-* System dependencies
+```https://github.com/RomainSai/UI_sprint_design_THP```
 
-* Configuration
+```bundle install```
 
-* Database creation
 
-* Database initialization
+ * lancer votre server : rails server
+ * http://localhost:3000/
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+Enjoy :)
