@@ -1,5 +1,4 @@
 footer{
-
   height: 50px;
 	background: linear-gradient(45deg, blue, red);
   bottom: 0;
@@ -8,16 +7,11 @@ footer{
 	height: 70px;
 }
 
-.menu_footer{
-
-}
-
 .social-footer{
 	position: fixed;
 	justify-content: space-between;
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .made{
