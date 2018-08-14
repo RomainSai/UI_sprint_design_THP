@@ -13,20 +13,25 @@
   <body>
       <!--------- HEADER ------------>
       <header>
-        <div class="title">
-          <p>UI <br/>SPRINT</br/> DESIGN
-          </p>
+        <div class="navbar">
+          <div class="logo">
+            <%= image_tag("logo.jpg", :class =>"img_logo") %>
+          </div>
+          <div class="name">
+            <p>UI <br/>SPRINT</br/> DESIGN</p>
+          </div>
+
         </div>
         <div class="button">
           <ul class="menu">
               <li>
-                <a href="#" class="mybutton">Tab</a>
+                <a href="#section1" class="mybutton">Tab</a>
               </li>
               <li>
-                <a href="#" class="mybutton">Card</a>
+                <a href="#section2" class="mybutton">Card</a>
               </li>
               <li>
-                <a href="#" class="mybutton">Contact</a>
+                <a href="#footer" class="mybutton">Contact</a>
               </li>
           </ul>
         </div>
@@ -46,39 +51,44 @@
       </header>
 
         <!--------- Main Section ------------>
-      <section>
+      <section id="section1">
         <div class="banner">
           <%= image_tag("paysage.jpg", :class => 'img' )%>
           <div class="title_center"> <h1>WELCOME TO </br/> UI SPRINT DESIGN</h1>
           </div>
           <button class="btn">Découvrir</button>
         </div>
+      </section>
 
         <!--------- Card Section 2 ----->
+      <section2 id="section2">
         <div class="cards">
           <div class="column">
             <%= image_tag("field.jpg", :class => 'img_field' )%>
-            <div class="cards_title">
-              <h3>Bienvenue au pré</h3>
-              <br/>
-              <h3>Enjoy</h3>
-            </div>
+              <div class="cards_title">
+                <h3>Bienvenu au pré</h3>
+                <br/>
+                <h5>Enjoy</h5>
+              </div>
           </div>
           <div class="column">
             <%= image_tag("oldcar.jpg", :class => 'img_oldcar' )%>
-              <h3>Bienvenue au pré</h3>
+              <h3>Old school</h3>
               <br/>
-              <h3>Enjoy</h3>
+
           </div>
           <div class="column">
             <%= image_tag("river.jpg", :class => 'img_river' )%>
           </div>
         </div>
+      </section2>
 
-      </section>
 
         <!--------- Footer ------------>
-      <footer class="social-footer">
+      <footer class="social-footer" id="footer">
+        <div class="made">
+          <p>Made with ❤️ By Romain</p>
+        </div>
         <div class="social-footer-icons">
           <ul class="menu_footer">
             <%= image_tag("facebook-logo.png", :class => 'logo_fb' )%>

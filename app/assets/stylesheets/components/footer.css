@@ -1,17 +1,27 @@
 footer{
   position: fixed;
+	display: flex;
+	justify-content: space-between;
   height: 50px;
-  background-color: #fff;
-  right: 0;
+	background: linear-gradient(45deg, blue, red);
   bottom: 0;
   left: 0;
-  padding: 1rem;
 }
 
+.made{
+	text-align: center;
+}
+
+.social-footer{
+	padding-top: 7px;
+	width: 100%;
+}
 
 .social-footer-icons{
+	float: right;
   text-align: center;
   align-items: center;
+	padding-top: 7px;
 }
 
 .social-footer-icons ul li{

@@ -14,6 +14,7 @@
 
 body {
   position: relative;
+  background-color: linear-gradient(45deg, blue, red);
   padding: 0px;
   margin: 0px;
   font-family: "Open Sans", "Helvetica", "sans-serif"; }
@@ -30,7 +31,7 @@ header{
   align-items: center; /*aligne verticalement */
   height: 100px;
   padding: 10px 30px;
-  background-color: black;
+  background: linear-gradient(45deg, blue, red);
 }
 
 
@@ -63,7 +64,8 @@ header{
   padding: 12px 24px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  width: 200px;
+  border-radius: 30px;
 }
 
 .banner .btn:hover {
