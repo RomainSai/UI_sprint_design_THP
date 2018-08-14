@@ -11,8 +11,6 @@
   border-radius: 2px;
 }
 
-
-
 .column {
   float: left;
    /* three containers (use 25% for four, and 50% for two, etc) */
@@ -28,7 +26,6 @@
 .cards_title{
   position: absolute;
   top: 30%;
-
   font-size: 30px;
   color: black;
   font-family: "Open Sans", "Helvetica", "sans-serif";
