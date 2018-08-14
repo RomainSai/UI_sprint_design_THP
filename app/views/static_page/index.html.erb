@@ -17,6 +17,19 @@
           <p>UI <br/>SPRINT</br/> DESIGN
           </p>
         </div>
+        <div class="button">
+          <ul class="menu">
+              <li>
+                <a href="#" class="mybutton">Tab</a>
+              </li>
+              <li>
+                <a href="#" class="mybutton">Card</a>
+              </li>
+              <li>
+                <a href="#" class="mybutton">Contact</a>
+              </li>
+          </ul>
+        </div>
         <div class="avatar">
           <ul class="avatar_dropdown">
             <li>
@@ -45,9 +58,17 @@
         <div class="cards">
           <div class="column">
             <%= image_tag("field.jpg", :class => 'img_field' )%>
+            <div class="cards_title">
+              <h3>Bienvenue au pré</h3>
+              <br/>
+              <h3>Enjoy</h3>
+            </div>
           </div>
           <div class="column">
             <%= image_tag("oldcar.jpg", :class => 'img_oldcar' )%>
+              <h3>Bienvenue au pré</h3>
+              <br/>
+              <h3>Enjoy</h3>
           </div>
           <div class="column">
             <%= image_tag("river.jpg", :class => 'img_river' )%>
@@ -55,26 +76,17 @@
         </div>
 
       </section>
-    </div>
+
         <!--------- Footer ------------>
-        <footer>
-			<p>
-				<strong>UI Sprint Design</strong> 2018
-			</p>
-
-			<p>
-				<a href="#  " id="ml">Mentions légales</a>
-			</p>
-
-			<!-- réseaux sociaux -->
-			<p id="rso">
-				<a href="https://twitter.com/" target=blank><i class="fab fa-twitter-square"></i></a>
-				<a href="https://www.facebook.com/" target=blank><i class="fab fa-facebook-square"></i></a>
-				<a href="https://fr.linkedin.com/" target=blank><i class="fab fa-linkedin"></i></a>
-				<a href="https://www.youtube.com/" target=blank><i class="fab fa-youtube-square"></i></a>
-			</p>
-		</footer>
-
-
+      <footer class="social-footer">
+        <div class="social-footer-icons">
+          <ul class="menu_footer">
+            <%= image_tag("facebook-logo.png", :class => 'logo_fb' )%>
+            <%= image_tag("instagram-logo.png", :class => 'logo_ig' )%>
+            <%= image_tag("pinterest.png", :class => 'logo_pinterest' )%>
+            <%= image_tag("twitter.png", :class => 'logo_twitter' )%>
+          </ul>
+        </div>
+    </footer>
   </body>
 </html>

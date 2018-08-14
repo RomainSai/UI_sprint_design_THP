@@ -1,32 +1,28 @@
 footer{
-	background:#000000;
-	padding:1vw 6%; /* haut+bas droite+gauche */
-	color:#ffffff;
-	display:flex;
-	font-size:1.2em;
-	justify-content:space-between;
-	align-items:center;
+  position: fixed;
+  height: 50px;
+  background-color: #fff;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }
 
-#ml{
-	color:#000000;
-	background:#00bfff;
-	text-decoration:none;
-	border-radius:8px;
-	padding:5px;
+
+.social-footer-icons{
+  text-align: center;
+  align-items: center;
 }
 
-#ml:hover{
-	color:#ffffff;
-	background:#0000ff;
+.social-footer-icons ul li{
+  padding-left: 10px;
 }
 
-#rso i{
-	font-size:50px;
-	color:#00bfff;
-	margin:0 8px; /* haut+bas droite+gauche */
+ul{
+  margin: 0px;
+  padding-left: 0px;
 }
 
-#rso i:hover{
-	color:#0000ff;
+.menu{
+  margin-top: 10px;
 }

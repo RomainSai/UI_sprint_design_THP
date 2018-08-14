@@ -9,7 +9,12 @@
 @import url("components/tabs.css");
 
 /* --- Fonts --- */
+
+
+
 body {
+  position: relative;
+  padding: 0px;
   margin: 0px;
   font-family: "Open Sans", "Helvetica", "sans-serif"; }
   h1, h2, h3 {
@@ -33,7 +38,7 @@ header{
 .banner {
   position: relative;
   text-align: center;
-  color: white;
+  background-color: black;
 }
 
 .title_center{
