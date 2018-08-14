@@ -1,0 +1,32 @@
+footer{
+	background:#000000;
+	padding:1vw 6%; /* haut+bas droite+gauche */
+	color:#ffffff;
+	display:flex;
+	font-size:1.2em;
+	justify-content:space-between;
+	align-items:center;
+}
+
+#ml{
+	color:#000000;
+	background:#00bfff;
+	text-decoration:none;
+	border-radius:8px;
+	padding:5px;
+}
+
+#ml:hover{
+	color:#ffffff;
+	background:#0000ff;
+}
+
+#rso i{
+	font-size:50px;
+	color:#00bfff;
+	margin:0 8px; /* haut+bas droite+gauche */
+}
+
+#rso i:hover{
+	color:#0000ff;
+}

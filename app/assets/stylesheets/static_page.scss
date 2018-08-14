@@ -17,20 +17,50 @@ body {
 
 }
 
+
 /* --- Header --- */
 header{
   display: flex;
   justify-content: space-between; /* aligne horizontalement */
   align-items: center; /*aligne verticalement */
-  border: 1px solid rgba(173,177,199,1);
-  border-radius: 3px;
   height: 100px;
   padding: 10px 30px;
-  background-color: rgba(136,183,237,1);
+  background-color: black;
 }
 
 
 /* --- Main Section --- */
-.container {
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+.title_center{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: black;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+.banner .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.banner .btn:hover {
+  background-color: black;
 }

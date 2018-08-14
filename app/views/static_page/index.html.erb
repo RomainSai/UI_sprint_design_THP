@@ -11,40 +11,69 @@
 
   </head>
   <body>
+      <!--------- HEADER ------------>
+      <header>
+        <div class="title">
+          <p>UI <br/>SPRINT</br/> DESIGN
+          </p>
+        </div>
+        <div class="avatar">
+          <ul class="avatar_dropdown">
+            <li>
+              <%= image_tag("avatar.jpeg", :class =>"img_avatar") %>
+              <%= image_tag("download.png") %>
+                <ul class="dropdown">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+      </header>
 
-    <!--------- HEADER ------------>
-    <header>
-      <div class="title">
-        <p>UI <br/>SPRINT</br/> DESIGN
-        </p>
-      </div>
-      <div class="avatar">
-        <ul class="avatar_dropdown">
-          <li>
-            <img src="https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=3f8fddf3c012c3df6b22eef5fdd704a8&amp;w=1000&amp;q=80" class="img_avatar">
-            <%= (image_tag("download.png")) %>
-              <ul class="dropdown">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-          </li>
-        </ul>
-      </div>
-    </header>
+        <!--------- Main Section ------------>
+      <section>
+        <div class="banner">
+          <%= image_tag("paysage.jpg", :class => 'img' )%>
+          <div class="title_center"> <h1>WELCOME TO </br/> UI SPRINT DESIGN</h1>
+          </div>
+          <button class="btn">Découvrir</button>
+        </div>
 
-      <!--------- Main Section ------------>
-    <section>
-      <div class="banner">
+        <!--------- Card Section 2 ----->
+        <div class="cards">
+          <div class="column">
+            <%= image_tag("field.jpg", :class => 'img_field' )%>
+          </div>
+          <div class="column">
+            <%= image_tag("oldcar.jpg", :class => 'img_oldcar' )%>
+          </div>
+          <div class="column">
+            <%= image_tag("river.jpg", :class => 'img_river' )%>
+          </div>
+        </div>
 
-      </div>
+      </section>
+    </div>
+        <!--------- Footer ------------>
+        <footer>
+			<p>
+				<strong>UI Sprint Design</strong> 2018
+			</p>
 
+			<p>
+				<a href="#  " id="ml">Mentions légales</a>
+			</p>
 
-    </section>
-
-      <!--------- Footer ------------>
-
-
+			<!-- réseaux sociaux -->
+			<p id="rso">
+				<a href="https://twitter.com/" target=blank><i class="fab fa-twitter-square"></i></a>
+				<a href="https://www.facebook.com/" target=blank><i class="fab fa-facebook-square"></i></a>
+				<a href="https://fr.linkedin.com/" target=blank><i class="fab fa-linkedin"></i></a>
+				<a href="https://www.youtube.com/" target=blank><i class="fab fa-youtube-square"></i></a>
+			</p>
+		</footer>
 
 
   </body>
