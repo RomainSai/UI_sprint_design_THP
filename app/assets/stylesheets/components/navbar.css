@@ -16,3 +16,45 @@
 .menu li{
   padding-right: 20px;
 }
+
+li {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover {
+  background: grey;
+  cursor: pointer;
+}
+
+ul li ul {
+  background: grey;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 10px;
+  width: 120px;
+  left: 0;
+  display: none;
+  text-align: center;
+  padding-left: 0px;
+}
+
+ul li ul li a{
+  text-decoration: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul, /* this is the line we add */
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}

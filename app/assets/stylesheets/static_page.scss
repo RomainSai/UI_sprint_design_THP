@@ -10,9 +10,11 @@
 
 /* --- Fonts --- */
 body {
-font-family: "Open Sans", "Helvetica", "sans-serif"; }
-h1, h2, h3 {
-font-family: "Montserrat", "sans-serif";
+  margin: 0px;
+  font-family: "Open Sans", "Helvetica", "sans-serif"; }
+  h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+
 }
 
 /* --- Header --- */
@@ -22,7 +24,7 @@ header{
   align-items: center; /*aligne verticalement */
   border: 1px solid rgba(173,177,199,1);
   border-radius: 3px;
-  height: 110px;
+  height: 100px;
   padding: 10px 30px;
   background-color: rgba(136,183,237,1);
 }

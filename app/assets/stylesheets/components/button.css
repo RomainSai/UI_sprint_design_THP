@@ -1,11 +1,11 @@
 .mybutton{
   box-shadow:inset 0px 1px 3px 0px #91b8b3;
-  background-color:#768d87;
-  border-radius:5px;
+
+  border-radius:30px;
   border:1px solid #566963;
   display:inline-block;
   cursor:pointer;
-  color:#ffffff;
+  color: black;
   font-family:Arial;
   font-size:15px;
   font-weight:bold;
